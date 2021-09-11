@@ -123,7 +123,7 @@ class IntegrationTestCase(ESTestCase, TestCase):
             {
                 'title': self.category1.title,
                 'slug': self.category1.slug,
-                'icon': self.category1.icon,
+                'icon': self.category1.icon.url,
             },
             {
                 'title': self.category2.title,
